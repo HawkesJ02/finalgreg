@@ -26,3 +26,12 @@ INSERT INTO houses
 (name, description, year, price, imgUrl)
 VALUES
 ('The Small Green', 'Actually just a small green sorry', 2020, 20001, 'https://images.unsplash.com/photo-1628394029761-acc83a2a08a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80');
+
+SELECT * FROM houses;
+
+DELETE FROM houses WHERE id = 1;
+
+UPDATE houses
+SET 
+description = 'GUH??!'
+WHERE id = 2;
